@@ -142,3 +142,87 @@ System.out.println(i);
 ```
 # 11. Define Object ?
 > - These are the realtime entities which has some state and behavior where state defines its method and behavior defined by the variables 
+
+# 12. Define class
+> - Class is a userdefined data type which works as a template for creating objects
+> - a class can have multiple objects
+
+# 13. Define method
+> - These are the block of code which is used to write bussiness logic and programming logic known as method
+> - it only executes when its called
+> - 2 types
+> 1. Static
+> 2. non - Static
+
+> 1. Static
+> - the method which is decalred inside a class with a static keyword known  as static method
+> - we can call it by 3 ways i.e 
+> 1. by creating object
+> 2. by directly
+> 3. by class name
+> - we can call a staic method in a non-static block 
+> - but we cant call a non static method in a static block
+
+> 2. Non - static 
+> - its declared inside a class and out side a method or constructor without a staic keyword known as non - static method
+> - we can access it by only one way i.e by creating object
+
+> 1. predefined method
+> - This is a typeof method which is already in  java library , if we wanna use it we have to import it to our program
+
+>2. userdefined method
+> - These are created by the programmer for a specific purpose or to do some specific task 
+
+# 14. What is method overloading ?
+> - when we create multiple method of same name but different argument and return type that is known as method overloading
+# 15. What is method overrideing ?
+> - its a process of changing implementation part of a parent class method inside child class according to the requirement of child class known as method overrideing
+> - for this 2 classes are needed and there should some relationship between two classes
+> - here the method should be of non - static type
+> - here method resolution takes place on the basis of runtime object . 
+
+# 16. What is method resolution ?
+> - Method resolution is a process of finding the correct method to call a object in a class hierarchy . 
+
+# 17. What is method signature and argument ?
+> - its the combination of method name and argument called method signature
+> - eg - getData(int a , string b)
+
+# 18. Argument and its type ?
+> - its work as a input to a method.
+> - its up two type 
+> - 1. formal argument
+> -  - the argument which we pass at the time of decalration of a method
+> - 2. Actual argument
+> - - the argument which we pass when we call the method 
+
+# 19. Define Return type ?
+> - Its the output of a method
+> - its up 3 type i.e
+> - 1. void return type
+> - - if a method doesnt return any thing 
+> - 2. primitive return type
+> - - if a method return a Premitive type of value like (int ,float , cahr etc)
+> - 3. non-primitive return type
+> - - if a method return a non - Premitive type of value like ( String , array , object etc)
+
+# 20. Whats is oops ?
+> - oops is programming pradigm based on the concept of object which can contain data in the form  of fields and code in the form of proceduors ( method )
+# 21. What are main 4 principles of oops ?
+> - 1. Abstraction
+> - - its a mechanisim of showing the functionality to the user by hiding the internal details
+> - 2. Encapsulation
+> - - its a mechanisim of binding the data and functions to a single unit known as Encapsulation . eg - class
+> - 3. Inheritance
+> - - its a mechanisim in which one class aquires the property of another calss 
+> - - it promotes code reusability and establish a relation between classes
+
+# 22. Define constructor ?
+> -  When we create a object a small peice of code runs automatically to innitialize a object is known  as constructor
+> - it doesnt have any return type
+> - its name should be of calss name
+> - all the access modifiers which are applicable for class all are applicable for constructor
+> - we cant override a constructor bcz its class specific
+
+# 23. 
+
